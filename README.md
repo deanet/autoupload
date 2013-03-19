@@ -45,3 +45,31 @@ kajian kitab Tafsir Jalalain (raw shoutcast) bulan JamadilAwal 1434 di SuaraNaba
 Kajian Mutiara Pagi Kalam Salaf di SuaraNabawiy.com setiap pukul 07.00 sampai 08.00 di hari Senin dan Selasa
 
 
+
+### Folder AlHidayah
+
+#### `getLive_annisa_raudhah.sh`
+
+Live Video Streaming Pengajian Ibu-ibu Majelis Ar-raudhah
+
+#### `get_arraudhah.sh` dan `getLive_arraudhah.sh` 
+
+Live radio dan Video Streaming Majelis Ar-Raudhah
+
+
+#### `get_ahbabulmustafa.sh`
+
+Live radio streaming Majelis Ahbabul Musthafa.
+
+
+#### `get_alhidayah.sh`
+
+Live radio streaming Majelis Al-Hidayah
+
+
+
+
+### Hasil autoupload
+
+
+bisa dilihat di [http://archive.org/details/majelis-taklim](http://archive.org/details/majelis-taklim)
