@@ -1,7 +1,7 @@
 #!/bin/bash
 export TZ="/usr/share/zoneinfo/Asia/Jakarta"
 path_script="/home/alfaqir/bin/"
-
+path_hum="/home/alfaqir/"
 rm -f /tmp/selasasore.txt
 
 s3_access_key=`cat $path_script/api_key.txt | awk -F \: '{print $1}'`
@@ -57,7 +57,7 @@ dotfile="flv"
 ##	grep FLV ${savefile}
 ##done
 #echo "$? OK , lets count the time"
-path_save="$path_script/Majelis/SN/Basaudan_${blnH}_${thnH}"
+path_save="$path_hum/Majelis/SN/Basaudan_${blnH}_${thnH}"
 
 if [ ! -d "$path_save" ];then
 mkdir -p "$path_save";

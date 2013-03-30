@@ -1,6 +1,8 @@
 #!/bin/bash
 export TZ="/usr/share/zoneinfo/Asia/Jakarta"
 path_script="/home/alfaqir/bin/"
+path_hum="/home/alfaqir/"
+
 s3_access_key=`cat $path_script/api_key.txt | awk -F \: '{print $1}'`
 s3_secret_key=`cat $path_script/api_key.txt | awk -F \: '{print $2}'`
 
@@ -22,7 +24,7 @@ $curl "http://archive.org/details/${identifier}_${blnH}_${thnH}_nabawiy" > /tmp/
 det=`date +%m_%d_%Y`
 namefile="Mengungkap_Hukum_Islam_SuaraNabawiyRaw${hariH}${blnH}${thnH}_${det}.mp3"
 #savefile="/home/alfaqir/selasa/$namefile"
-path_save="$path_script/Majelis/SN/MengungkapHukumIslam_${blnH}_${thnH}"
+path_save="$path_hum/Majelis/SN/MengungkapHukumIslam_${blnH}_${thnH}"
 savefile="${path_save}/${namefile}"
 
 if [ ! -d "$path_save" ];then
